@@ -1,2 +1,1 @@
-# ProjetoAdm
- 
+#Vinícius, estudante de TI, desenvolveu um projeto de programação como forma de expressar gratidão à sua antiga turma de administração. Sua iniciativa visa criar um ambiente de interação virtual, reunindo colegas agora distantes geograficamente. A plataforma proporciona não apenas uma conexão online, mas também ferramentas específicas de administração, promovendo a colaboração e reforçando os laços entre os ex-colegas.

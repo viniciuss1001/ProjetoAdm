@@ -1,0 +1,46 @@
+.navbar{
+    background-color: rgb(49, 96, 238);
+
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.logo{
+    background-color: none;
+    padding: .5rem;
+    border-radius: .5rem;
+    width: 20%;
+    margin: auto auto auto 0;
+}
+.logo span{
+    font-style: italic;
+    margin-left: -1rem;
+    font-family: 'Cedarville Cursive', cursive;
+}
+.logoimg{
+    width: 30%;
+}
+.linksContainer{
+    background-color: none;
+    border-radius: .5rem;
+    width: 50%;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.link{
+    font-weight: 400;
+    background-color: none;
+    margin: .5rem auto;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: .3s ease;
+}
+.link:hover{
+    background: #ffffff5a;
+    padding: .5rem;
+    border-radius: .5rem;
+}
