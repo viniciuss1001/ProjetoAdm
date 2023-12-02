@@ -17,11 +17,9 @@ const NavbarDefault = () => {
                     <img src={logo2} alt="Escudo Adminitração" className={styles.logoimg} />
                     <span>2020-2022</span>
                 </NavLink>
-                <span>
-                    {user && (
-                    <p>{user.displayName}</p>
+                {user && (
+                    <span className={styles.name}> | {user.displayName}</span>
                 )}
-                </span>
             </div>
             <div className={styles.linksContainer}>
 

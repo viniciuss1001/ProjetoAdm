@@ -12,8 +12,9 @@
     padding: .5rem;
     border-radius: .5rem;
     transition: .3s ease;
-    width: 20%;
-    margin: auto auto auto 0;
+    width: auto;
+    max-width: 30%;
+    margin: -.5rem auto auto 0;
 }
 .linklogo{
     color: #fff;
@@ -41,7 +42,10 @@
 }
 
 .logoimg{
-    width: 30%;
+    width: 25%;
+}
+.name{
+    font-size: 1.5rem;
 }
 .linksContainer{
     background-color: none;

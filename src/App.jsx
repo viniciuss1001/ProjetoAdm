@@ -14,6 +14,10 @@ import { AuthProvider } from './context/useAuthContext';
 import { useEffect, useState } from 'react';
 import { useAuthentication } from './hooks/useAutentication';
 import { onAuthStateChanged } from 'firebase/auth';
+import AboutDev from './pages/developer/Components/About/AboutDev';
+import Skills from './pages/developer/Components/Skills/Skills';
+import Project from './pages/developer/Components/Project/Project';
+import Contact from './pages/developer/Components/Contact/Contact';
 
 
 function App() {
@@ -45,6 +49,10 @@ function App() {
         <Route path='/dev' element={<Dev />} />
         <Route path='/login' element={<Login />} />
         <Route path='/create' element={<Create />} />
+        <Route path='/aboutdev' element={<AboutDev/>} />
+        <Route path='/skills' element={<Skills />} />
+        <Route path='/projects' element={<Project />} />
+        <Route path='/contactdev' element={<Contact />}/>
         <Route path='*' element={<ErrorPage />} />
       </Routes>
       </BrowserRouter>

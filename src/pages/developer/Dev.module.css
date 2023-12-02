@@ -1,0 +1,15 @@
+.div{
+    background-color: #0F7BFA;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.img{
+    width: 15%;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    display: flex;
+    margin: 0 auto;
+}
