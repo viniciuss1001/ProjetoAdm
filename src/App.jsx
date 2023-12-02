@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Navbar from './components/Navbars/Navbar';
 import Dev from './pages/developer/Dev';
 import ErrorPage from './pages/404/404';
+import Create from './pages/Create/Create';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/dev' element={<Dev />} />
+        <Route path='/create' element={<Create />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
       </BrowserRouter>

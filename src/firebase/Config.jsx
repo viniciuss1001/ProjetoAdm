@@ -1,14 +1,11 @@
-import firebase from 'firebase/compat/app'
-import 'firebase/firestore'
-
-// Import the functions you need from the SDKs you need
+import firebase from "firebase/compat/app";
+// Required for side-effects
+import "firebase/firestore";
 import { initializeApp } from "firebase/app";
-import { getAuth } from 'firebase/auth'
-import { getFirestore } from 'firebase/firestore';
+import { getAuth } from "firebase/auth";
 
+import { getFirestore } from "firebase/firestore"; // importando método necessário
 
-
-// Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyDfPDLrmphWW4C8LQMBf8cV0xWR_ZZYNtI",
     authDomain: "projetoadm-aed08.firebaseapp.com",
@@ -21,7 +18,7 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-//initialize firebase db
-const db = getFirestore(app)
+// Initialize Firestore BD
+const db = getFirestore(app);
 const auth = getAuth()
-export { db, auth }
+export { db, auth };
