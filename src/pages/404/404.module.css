@@ -12,11 +12,11 @@
 .home{
     background-color: none;
     z-index: 100;
-    width: 25%;
+    width: 30%;
     float: right;
     display: flex;
-    flex-direction: column;
-    margin: 0 2% 0 auto;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 .subtitle{
     text-align: center;
@@ -26,7 +26,7 @@
     width: 100%;
     background-color: none;
     height: 50vh;
-    margin-top: -10rem;
+    
 }
 .img{
     display: flex;
@@ -34,13 +34,6 @@
     height: auto;
     margin: 0 auto;
 
-}
-.btn{
-    width: auto;
-    border-radius: .5rem;
-    padding: .5rem;
-    margin: 1rem 20% 1rem auto;
-    transform: translateX(-0%);
 }
 .link{
     color: #fff;
@@ -56,16 +49,8 @@
     border: none;
     outline: none;
     border-radius: .5rem;
-    width: auto;
+    width: 45%;
 }
-@keyframes jump{
-    0%{
-        margin: 0  ;
-    }
-    50%{
-        margin: -2rem ;
-    }
-    100%{
-        margin: 0 ;
-    }
+.link:hover{
+    background-color: #0F7BFA;
 }

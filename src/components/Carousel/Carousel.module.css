@@ -7,13 +7,15 @@
     justify-content: center;
 }
 .slider{
-    height: auto;
+    margin-top: -3rem;
+    height: 95vh;
     width: 100%;
     background-color: #0F7BFA;
     padding: 0 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: -2;
 }
 .card{
     height: 100%;
@@ -24,4 +26,5 @@
     width: 90vw;
     height: 80vh;
     z-index: 100;
+    border-radius: 1rem;
 }

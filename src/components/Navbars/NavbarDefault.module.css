@@ -1,4 +1,5 @@
 .navbar{
+    height: 5rem;
     background-color: #0F7BFA;
     color: #fff;
     padding: 1rem;
@@ -46,6 +47,7 @@
     background-color: none;
     border-radius: .5rem;
     width: 50%;
+    height: auto;
     padding: .5rem;
     display: flex;
     justify-content: space-around;
@@ -57,11 +59,11 @@
     font-weight: 500;
     font-size: 1.1rem;
     transition: .3s ease;
-    margin: 0 auto;
+    padding: .5rem 1rem;
+    margin: auto 1rem;
     text-align: center;
     text-decoration: none;
     background-color: none;
-    padding: .5rem ;
     border: none;
     outline: none;
     border-radius: .5rem;
@@ -93,7 +95,7 @@
     text-decoration: none;
     border-radius: .5rem;
     color: #fff;
-    width: auto;
+    width: 15rem;
     font-size: 1.1rem;
     transition: .3s ease;
     font-weight: 500;
@@ -101,4 +103,13 @@
 .create:hover{
     background-color: #fff;
     color: royalblue;
+}
+.logout{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #ffff;
+    border-radius: .5rem;
+    padding: .5rem 2rem;
+    outline: none;
+    
 }
