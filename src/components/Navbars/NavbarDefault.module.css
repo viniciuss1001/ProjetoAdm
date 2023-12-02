@@ -1,6 +1,5 @@
 .navbar{
-    background-color: rgb(49, 96, 238);
-
+    background-color: #0F7BFA;
     color: #fff;
     padding: 1rem;
     display: flex;
@@ -11,14 +10,35 @@
     background-color: none;
     padding: .5rem;
     border-radius: .5rem;
+    transition: .3s ease;
     width: 20%;
     margin: auto auto auto 0;
 }
-.logo span{
+.linklogo{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.3rem;
+    transition: .3s ease;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: none;
+    padding: 1rem ;
+    border: none;
+    outline: none;
+    border-radius: .2rem;
+}
+.linklogo span{
+    color: #fff;
+    text-decoration: none;
     font-style: italic;
     margin-left: -1rem;
     font-family: 'Cedarville Cursive', cursive;
 }
+.linklogo:hover{
+    border-bottom: 1px solid #fff;
+}
+
 .logoimg{
     width: 30%;
 }
@@ -29,18 +49,56 @@
     padding: .5rem;
     display: flex;
     justify-content: space-around;
+    background-color: none;
+    margin: 0 auto;
 }
 .link{
-    font-weight: 400;
-    background-color: none;
-    margin: .5rem auto;
-    text-decoration: none;
     color: #fff;
-    font-size: 1.2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
     transition: .3s ease;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: none;
+    padding: .5rem ;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    width: 25%;
 }
 .link:hover{
     background: #ffffff5a;
-    padding: .5rem;
     border-radius: .5rem;
+}
+.login{
+    background-color: #fff;
+    padding: .5rem 1rem;
+    margin: auto 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .5rem;
+    color: #000;
+    width: 5rem;
+    font-size: 1.1rem;
+    transition: .3s ease;
+    font-weight: 500;
+}
+.create{
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: .5rem 1rem;
+    margin: auto 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .5rem;
+    color: #fff;
+    width: auto;
+    font-size: 1.1rem;
+    transition: .3s ease;
+    font-weight: 500;
+}
+.create:hover{
+    background-color: #fff;
+    color: royalblue;
 }

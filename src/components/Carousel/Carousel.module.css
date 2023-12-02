@@ -1,0 +1,27 @@
+.slidercont{
+    width: 100%;
+    height: auto;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider{
+    height: auto;
+    width: 100%;
+    background-color: #0F7BFA;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 100%;
+}
+.img{
+    display: block;
+    margin: 0 auto;
+    width: 90vw;
+    height: 80vh;
+    z-index: 100;
+}
