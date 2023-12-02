@@ -8,6 +8,7 @@ import Navbar from './components/Navbars/Navbar';
 import Dev from './pages/developer/Dev';
 import ErrorPage from './pages/404/404';
 import Create from './pages/Create/Create';
+import Login from './pages/Login/Login';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/dev' element={<Dev />} />
+        <Route path='/login' element={<Login />} />
         <Route path='/create' element={<Create />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>

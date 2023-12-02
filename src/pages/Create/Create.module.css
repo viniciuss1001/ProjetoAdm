@@ -1,7 +1,7 @@
 .container{
     display: flex;
-    height: 100%;
-    background-color: #f9f9f9;
+    height: 95vh;
+    background-color: #0F7BFA;
     padding: 0 2%;
 }
 .divimg{
@@ -20,6 +20,7 @@
 .text{
     padding: 2rem auto;
     width: 40%;
+    height: 95%;
     margin: 1rem auto;
     display: flex;
     flex-direction: column;
@@ -28,6 +29,7 @@
     border-radius: .5rem;
 }
 .title{
+    margin-top: 1rem;
     font-size: 2.5rem;
 }
 .title span{
@@ -36,16 +38,22 @@
 .label{
     background-color: none;
     width: 100%;
-    padding: .5rem;
+    padding: .5rem .25rem .25rem 3rem;
     margin: .5rem auto;
 }
 .input{
+    display: block;
     border: none;
     outline: none;
     padding: .5rem;
     border-radius: .5rem;
-    width: 100%;
+    width: 90%;
     background-color: #f9f9f9;
+    transition: .3s ease;
+    margin-top: .5rem;
+}
+.input:focus{
+    background-color: #0f7dfa65;
 }
 .btn{
     background-color: #151717;
