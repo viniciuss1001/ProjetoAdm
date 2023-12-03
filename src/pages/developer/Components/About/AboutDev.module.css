@@ -1,0 +1,7 @@
+.div{
+    background-color: #151717;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    color: #fff;
+}

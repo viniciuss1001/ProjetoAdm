@@ -1,6 +1,7 @@
 import { Link, NavLink } from 'react-router-dom'
 //style
 import styles from './Dev.module.css'
+import bg from './Assets/back.jpg'
 //components
 import NavbarDev from './Components/Navbar/NavbarDev'
 import dev from './Assets/Dev.jpg'
@@ -13,17 +14,18 @@ const Dev = () => {
     <div className={styles.div}>
       <NavbarDev />
       <img src={dev} alt='Vinícius Frota' className={styles.img}/>
-      <h1 className={styles.title}>Olá, sou Vinícius Frota</h1>
-      <h4 className={styles.subtitle}>FullStack Webdeveloper</h4>
-      <p className={styles.text}>
-        Vinícius, estudante dedicado de TI, destaca-se pela iniciativa de criar projetos inovadores. Sua mais recente contribuição consiste em uma plataforma que reúne sua antiga turma de administração, promovendo interação e colaboração online de forma eficaz.
-      </p>
+      <h1 className={styles.title}>Olá, sou <span>Vinícius Frota</span></h1>
+      <h4 className={styles.subtitle}><span>FullStack</span> Web Developer</h4>
       <div className={styles.linkcont}>
-        <Link to='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZZzXkvJXlnfXBntTDZpqCVjQhJFSdNfZpsRffrNrXCNjqDqsjLDQZtGVrvcjNlfvJtpdq'>
+        <Link 
+        className={styles.email}
+        to='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZZzXkvJXlnfXBntTDZpqCVjQhJFSdNfZpsRffrNrXCNjqDqsjLDQZtGVrvcjNlfvJtpdq'>
           Email <MdEmail />
         </Link >
-        <Link to='https://github.com/viniciuss1001'>
-          GitGub <FaGithub />
+        <Link 
+        className={styles.github}
+        to='https://github.com/viniciuss1001'>
+          GitHub <FaGithub />
         </Link>
       </div>
     </div>

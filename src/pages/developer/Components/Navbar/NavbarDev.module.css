@@ -26,5 +26,6 @@
     transition: .3s ease;
 }
 .link:hover{
-    background-color: #ffffff5a;
+    color: #0F7BFA;
+    background-color: #ffff;
 }

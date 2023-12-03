@@ -1,10 +1,11 @@
 import React from 'react'
-import Dev from '../../Dev'
 import NavbarDev from '../Navbar/NavbarDev'
+import styles from './AboutDev.module.css'
+//style from timeline
 
 const AboutDev = () => {
   return (
-    <div>
+    <div className={styles.div}>
       <NavbarDev />
       sobre o desenvolvedor
       
