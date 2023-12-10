@@ -50,6 +50,7 @@ const StudentRegister = () => {
             uid: user.uid,
             createdBy: user.displayName
         })
+        console.log(profile)
 
         navigate("/")
     }

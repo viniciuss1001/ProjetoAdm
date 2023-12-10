@@ -52,6 +52,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home/>} />
+        {/*student single page */}
+        <Route path='/class/:id' element={<Student />} />
         <Route path='/dev' element={<Dev />} />
         <Route path='/login' element={<Login />} />
         <Route path='/create' element={<Create />} />
@@ -66,8 +68,6 @@ function App() {
         <Route path='/teachers' element={<Teachers />} />
         <Route path='/dt' element={<DT />} />
         <Route path='/about' element={<About />} />
-        {/*student single page */}
-        <Route to='/student/:id' element={<Student />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
       </BrowserRouter>

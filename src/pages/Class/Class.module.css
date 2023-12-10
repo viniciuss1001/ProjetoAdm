@@ -31,7 +31,6 @@
     padding: 1rem;
     border-radius: .5rem;
     display: flex;
-    flex-direction: column;
     box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: .25rem;
 }
@@ -39,4 +38,37 @@
     color: royalblue;
     font-weight: 500;
     font-size: 1.2rem;
+}
+.img{
+    height: 100%;
+    width: 20%;
+    background-color: #f8f8f8;
+}
+.text{
+    width: 55%;
+    padding: 0 1rem;
+    background-color: none ;
+}
+.control{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+
+}
+.link{
+    background-color: royalblue;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .5rem;
+    margin: auto 0 auto auto;
+    transition: .3s ease;
+}
+.link:hover{
+    background: transparent;
+    color: royalblue;
+    border: 1px solid royalblue;
 }
