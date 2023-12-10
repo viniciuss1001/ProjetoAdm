@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react"
 import { useAuthentication } from "../../hooks/useAutentication"
-//style
 import styles from './Login.module.css'
 //icons
 import { IoPerson } from 'react-icons/io5'
