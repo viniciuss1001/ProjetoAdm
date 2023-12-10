@@ -18,6 +18,11 @@ import AboutDev from './pages/developer/Components/About/AboutDev';
 import Skills from './pages/developer/Components/Skills/Skills';
 import Project from './pages/developer/Components/Project/Project';
 import Contact from './pages/developer/Components/Contact/Contact';
+import Dashboard from './pages/Dashboard/Dashboard';
+import Class from './pages/Class/Class';
+import Teachers from './pages/Teachers/Teachers';
+import DT from './pages/DT/DT';
+import About from './pages/About/About';
 
 
 function App() {
@@ -49,10 +54,17 @@ function App() {
         <Route path='/dev' element={<Dev />} />
         <Route path='/login' element={<Login />} />
         <Route path='/create' element={<Create />} />
+        {/*about dev */}
         <Route path='/aboutdev' element={<AboutDev/>} />
         <Route path='/skills' element={<Skills />} />
         <Route path='/projects' element={<Project />} />
         <Route path='/contactdev' element={<Contact />}/>
+        {/*principal pages */}
+        <Route path='/dash' element={<Dashboard />} />
+        <Route path='/class' element={<Class />} />
+        <Route path='/teachers' element={<Teachers />} />
+        <Route path='/dt' element={<DT />} />
+        <Route path='/about' element={<About />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
       </BrowserRouter>

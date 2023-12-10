@@ -3,6 +3,7 @@ import firebase from "firebase/compat/app";
 import "firebase/firestore";
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
+import {getStorage} from 'firebase/storage'
 
 import { getFirestore } from "firebase/firestore"; // importando método necessário
 
@@ -19,6 +20,10 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 // Initialize Firestore BD
+const storage = getStorage(app)
 const db = getFirestore(app);
 const auth = getAuth()
-export { db, auth };
+//upload de imagens
+const projectStorage = getStorage()
+const projectFirestore = getFirestore()
+export { db, auth, storage, projectFirestore, projectStorage };

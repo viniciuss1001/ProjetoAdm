@@ -20,7 +20,7 @@
 .text{
     padding: 2rem auto;
     width: 40%;
-    height: 95%;
+    height: 75%;
     margin: 1rem auto;
     display: flex;
     flex-direction: column;
@@ -74,5 +74,5 @@
 .enter{
     display: flex;
     float: right;
-    margin: .2rem 2rem .5rem auto;
+    margin: 1rem 2rem 1rem auto;
 }

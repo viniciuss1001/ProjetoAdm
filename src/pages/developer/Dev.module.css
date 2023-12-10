@@ -1,11 +1,7 @@
 .div{
-    /*
-    background-image: url('./Assets/back.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    */
-    background-color: #151717;
+
+    background-color: #455E7A;
+    background-color: #000;
     display: flex;
     flex-direction: column;
     height: 95vh;

@@ -53,6 +53,10 @@
 .input:focus{
     background-color: #0f7dfa65;
 }
+.input:invalid{
+    border: 1px solid rgb(196, 91, 91);
+    animation: shake .2s 1;
+}
 .btn{
     background-color: #151717;
     color: #fff;
@@ -77,4 +81,16 @@
     display: flex;
     float: right;
     margin: .2rem 2rem .5rem auto;
+}
+
+@keyframes shake {
+    0%{
+        transform: translateX(5px);
+    }
+    50%{
+        transform: translateX(-5px);
+    }
+    100%{
+        transform: translateX(5px);
+    }
 }
