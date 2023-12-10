@@ -23,6 +23,7 @@ import Class from './pages/Class/Class';
 import Teachers from './pages/Teachers/Teachers';
 import DT from './pages/DT/DT';
 import About from './pages/About/About';
+import Student from './pages/Student/Student';
 
 
 function App() {
@@ -65,6 +66,8 @@ function App() {
         <Route path='/teachers' element={<Teachers />} />
         <Route path='/dt' element={<DT />} />
         <Route path='/about' element={<About />} />
+        {/*student single page */}
+        <Route to='/student/:id' element={<Student />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
       </BrowserRouter>

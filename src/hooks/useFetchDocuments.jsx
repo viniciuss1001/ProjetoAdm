@@ -32,6 +32,7 @@ export const useFetchDocuments = (docCollection, search = null, uid = null) => {
                     ...doc.data(),
                     id: doc.id
                 })))
+                setLoading(false)
             }catch(error){
                 console.log(error.message)
                 setError(error)
