@@ -24,6 +24,8 @@ import Teachers from './pages/Teachers/Teachers';
 import DT from './pages/DT/DT';
 import About from './pages/About/About';
 import Student from './pages/Student/Student';
+import StudentEdic from './pages/StudentEdit/StudentEdic';
+import Teacher from './pages/Teacher/Teacher';
 
 
 function App() {
@@ -53,7 +55,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         {/*student single page */}
-        <Route path='/class/:id' element={<Student />} />
+        <Route path='/student/:id' element={<Student />} />
+        <Route path='/student/edit/:id' element={<StudentEdic />} />
         <Route path='/dev' element={<Dev />} />
         <Route path='/login' element={<Login />} />
         <Route path='/create' element={<Create />} />
@@ -66,6 +69,7 @@ function App() {
         <Route path='/dash' element={<Dashboard />} />
         <Route path='/class' element={<Class />} />
         <Route path='/teachers' element={<Teachers />} />
+        <Route path='/teachers/:id' element={<Teacher />} />
         <Route path='/dt' element={<DT />} />
         <Route path='/about' element={<About />} />
         <Route path='*' element={<ErrorPage />} />

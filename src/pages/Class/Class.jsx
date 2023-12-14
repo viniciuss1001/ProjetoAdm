@@ -7,11 +7,13 @@ import Loader from '../../components/Loader/Loader'
 import { PiStudentFill } from 'react-icons/pi'
 import { Link } from 'react-router-dom'
 import {FaChevronRight} from 'react-icons/fa'
+
+
 const Class = () => {
   const { user } = useAuthValue()
   const uid = user.id
 
-  const { documents: students, loading } = useFetchDocuments("students")
+  const { documents: students, loading } = useFetchDocuments("students", null, uid)
   return (
     <div className={styles.students}>
       <PiStudentFill className={styles.icon} />
@@ -20,7 +22,7 @@ const Class = () => {
         {students && students.lenth === 0 ? <p>Houve um erro!</p> : (
           <>
             <span>
-              <h5>Estudantes</h5>
+              <h5 className={styles.classmates}>Estudantes</h5>
             </span>
           </>
         )}
@@ -36,7 +38,7 @@ const Class = () => {
 
             </div>
             <div className={styles.control}>
-              <Link to={`/class/${student.id}`} className={styles.link}>Detalhes
+              <Link to={`/student/${student.id}`} className={styles.link}>Detalhes
               <FaChevronRight />
               </Link>
             </div>
